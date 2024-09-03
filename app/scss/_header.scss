@@ -1,0 +1,42 @@
+.header{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+
+  &__group{
+    width: 138rem;
+    margin: 0 auto;
+    margin-top: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    display: block;
+    width: 8.5rem;
+    height: 2.68rem;
+  }
+
+  &__navigation{
+    width: 96rem;
+    display: block;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__contact{
+    display: block;
+    width: 13.8rem;
+    text-align: left;
+  }
+}
